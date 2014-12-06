@@ -2,6 +2,7 @@
 /.idea
 /ansible
 /.vagrant
+Vagrantfile
 composer.phar
 composer.lock
 .DS_Store
