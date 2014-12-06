@@ -2,6 +2,7 @@
 /.idea
 /ansible
 /.vagrant
+/working
 Vagrantfile
 composer.phar
 composer.lock
