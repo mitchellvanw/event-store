@@ -1,5 +1,7 @@
 # Event Store
 
+PHP API for [Event Store](http://geteventstore.com)
+
 ## Documentation
 
 Begin reading [the full documentation](https://github.com/mitchellvanw/event-store/wiki) here or go to a specific chapter right away.
