@@ -1,0 +1,24 @@
+{
+    "name": "mitchellvanw/event-store",
+    "description": "PHP API for Event Store",
+    "keywords": ["event store", "event sourcing"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitchell van Wijngaarden",
+            "email": "mitchell@kooding.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mitchell\\EventStore\\": "src/"
+        }
+    }
+}
