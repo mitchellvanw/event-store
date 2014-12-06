@@ -1,5 +1,7 @@
 /vendor
 /.idea
+/ansible
+/.vagrant
 composer.phar
 composer.lock
 .DS_Store
