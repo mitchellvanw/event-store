@@ -14,11 +14,14 @@
         "guzzlehttp/guzzle": "~5.0"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.1"
+        "phpspec/phpspec": "2.1.*@dev"
     },
     "autoload": {
         "psr-4": {
             "Mitchell\\EventStore\\": "src/"
         }
+    },
+    "config": {
+        "bin-dir": "bin"
     }
 }

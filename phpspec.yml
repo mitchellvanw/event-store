@@ -1,0 +1,7 @@
+---
+suites:
+  event_store_suit:
+    namespace: Mitchell\EventStore
+    psr4_prefix: Mitchell\EventStore
+
+formatter.name: pretty
