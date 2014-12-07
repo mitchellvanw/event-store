@@ -17,11 +17,10 @@ final class ReadStreamRequest implements ApiRequest {
     }
 
     public function getUri() {
-        return  "/streams/{$this->streamId}";
+        return "/streams/{$this->streamId}";
     }
 
-    public function getHeaders()
-    {
+    public function getHeaders() {
         return ['Content-Type' => 'application/vnd.eventstore.atom+json'];
     }
 }
