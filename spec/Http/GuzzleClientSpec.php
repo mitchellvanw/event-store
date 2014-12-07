@@ -1,9 +1,10 @@
 <?php namespace spec\Mitchell\EventStore\Http;
 
-use GuzzleHttp\Client;
-use Mitchell\EventStore\Http\HttpClient;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
+
+use GuzzleHttp\Client;
+use Mitchell\EventStore\Http\HttpClient;
 
 class GuzzleClientSpec extends ObjectBehavior {
 
