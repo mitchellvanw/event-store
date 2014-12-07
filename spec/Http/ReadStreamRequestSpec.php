@@ -8,7 +8,7 @@ use Mitchell\EventStore\Http\ApiRequest;
 class ReadStreamRequestSpec extends ObjectBehavior {
 
     function let() {
-        $this->beConstructedWith('astream');
+        $this->beConstructedThrough('usingId', ['astream']);
     }
 
     function it_is_an_api_request() {
